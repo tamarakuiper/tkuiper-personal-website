@@ -4,7 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tamara Kuiper | Links, Projects & Highlights</title>
-  <meta name="description" content="The official homepage for Tamara Kuiper — promotional links, projects, accomplishments, and ways to connect." />
+  <meta
+    name="description"
+    content="The official homepage for Tamara Kuiper — promotional links, projects, accomplishments, and ways to connect."
+  />
 
   <style>
     :root {
@@ -270,8 +273,8 @@
       border-radius: 32px;
       border: 1px solid var(--line);
       background:
-        linear-gradient(135deg, rgba(255,79,216,0.42), rgba(80,227,255,0.32)),
-        url("https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80") center/cover;
+        linear-gradient(135deg, rgba(255,79,216,0.22), rgba(80,227,255,0.18)),
+        url("headshot_2.jpg") center/cover;
       margin-bottom: 20px;
       box-shadow: inset 0 -80px 120px rgba(0, 0, 0, 0.28);
     }
@@ -424,6 +427,40 @@
       box-shadow: 0 20px 70px rgba(0,0,0,0.22);
     }
 
+    .report-visual {
+      background:
+        linear-gradient(135deg, rgba(255,79,216,0.28), rgba(80,227,255,0.22)),
+        radial-gradient(circle at 70% 30%, rgba(255,228,92,0.28), transparent 28%),
+        repeating-linear-gradient(
+          0deg,
+          rgba(255,255,255,0.08) 0 2px,
+          transparent 2px 14px
+        );
+    }
+
+    .project-details {
+      margin: 16px 0 18px;
+      padding-left: 18px;
+      color: var(--muted);
+      line-height: 1.6;
+      font-size: 0.92rem;
+    }
+
+    .project-details li {
+      margin-bottom: 6px;
+    }
+
+    .project-link {
+      display: inline-flex;
+      margin-top: 10px;
+      color: var(--accent-2);
+      font-weight: 800;
+    }
+
+    .project-link:hover {
+      text-decoration: underline;
+    }
+
     .stats {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -537,29 +574,6 @@
       .button {
         width: 100%;
       }
-
-          .project-details {
-        margin: 16px 0 18px;
-        padding-left: 18px;
-        color: var(--muted);
-        line-height: 1.6;
-        font-size: 0.92rem;
-      }
-
-    .project-details li {
-        margin-bottom: 6px;
-      }
-
-    .project-link {
-        display: inline-flex;
-        margin-top: 6px;
-        color: var(--accent-2);
-        font-weight: 800;
-      }
-
-    .project-link:hover {
-        text-decoration: underline;
-      }
     }
   </style>
 </head>
@@ -575,7 +589,6 @@
       <div class="nav-links">
         <a href="#links">Links</a>
         <a href="#projects">Projects</a>
-        <a href="#wins">Highlights</a>
         <a href="#about">About</a>
       </div>
     </nav>
@@ -596,7 +609,7 @@
       </div>
 
       <aside class="side-card" aria-label="Featured profile card">
-        <div class="portrait" role="img" aria-label="headshot_2.jpg"></div>
+        <div class="portrait" role="img" aria-label="Professional headshot of Tamara Kuiper"></div>
         <div>
           <div class="mini-title">Creator • Builder • Collaborator</div>
           <p class="muted">
@@ -610,20 +623,20 @@
       <div class="ticker-track">
         <span class="tag">Portfolio</span>
         <span class="tag">Featured Projects</span>
-        <span class="tag">Press & Media</span>
-        <span class="tag">Speaking</span>
-        <span class="tag">Community</span>
-        <span class="tag">Creative Work</span>
-        <span class="tag">Accomplishments</span>
-        <span class="tag">Collaborations</span>
+        <span class="tag">Computer Forensics</span>
+        <span class="tag">Design Prototyping</span>
+        <span class="tag">Web Projects</span>
+        <span class="tag">GitHub</span>
+        <span class="tag">Professional Growth</span>
+        <span class="tag">Collaboration</span>
         <span class="tag">Portfolio</span>
         <span class="tag">Featured Projects</span>
-        <span class="tag">Press & Media</span>
-        <span class="tag">Speaking</span>
-        <span class="tag">Community</span>
-        <span class="tag">Creative Work</span>
-        <span class="tag">Accomplishments</span>
-        <span class="tag">Collaborations</span>
+        <span class="tag">Computer Forensics</span>
+        <span class="tag">Design Prototyping</span>
+        <span class="tag">Web Projects</span>
+        <span class="tag">GitHub</span>
+        <span class="tag">Professional Growth</span>
+        <span class="tag">Collaboration</span>
       </div>
     </div>
 
@@ -631,6 +644,7 @@
       <div class="section-heading">
         <h2>Promotional links</h2>
         <p>
+          Quick access to my professional profiles, featured work, and contact information.
         </p>
       </div>
 
@@ -638,25 +652,25 @@
         <a class="link-card" href="https://github.com/tamarakuiper" target="_blank" rel="noopener">
           <div class="icon">◎</div>
           <h3>GitHub</h3>
-          <p>Explore my repositories.</p>
+          <p>Explore my repositories, code projects, and technical progress.</p>
         </a>
 
         <a class="link-card" href="https://www.linkedin.com/in/tamara-kuiper-b58585367/" target="_blank" rel="noopener">
           <div class="icon">in</div>
           <h3>LinkedIn</h3>
-          <p>Professional background, accomplishments, career highlights, and collaborations.</p>
+          <p>View my professional background, accomplishments, and career highlights.</p>
         </a>
 
         <a class="link-card" href="#projects">
           <div class="icon">✦</div>
           <h3>Featured Work</h3>
-          <p>A curated selection of projects, launches, campaigns, and creative work.</p>
+          <p>See selected projects that reflect my technical growth and problem-solving.</p>
         </a>
 
         <a class="link-card" href="mailto:tkuiper2024@gmail.com">
           <div class="icon">@</div>
           <h3>Contact</h3>
-          <p>Reach out for opportunities or general inquiries.</p>
+          <p>Reach out for opportunities, questions, or professional connections.</p>
         </a>
       </div>
     </section>
@@ -664,137 +678,113 @@
     <section id="projects">
       <div class="section-heading">
         <h2>Featured projects</h2>
+        <p>
+          A selection of practical web, cybersecurity, and design work that reflects
+          my technical growth, problem-solving, and attention to user experience.
+        </p>
       </div>
 
-<div class="showcase">
-  <article class="project-card">
-    <div class="project-visual"></div>
-    <h3>Custody Calendar</h3>
-    <p>
-      A practical scheduling project designed to organize custody dates, improve planning,
-      and make shared calendar information easier to manage.
-    </p>
-    <ul class="project-details">
-      <li>Focused on usability, clarity, and real-world organization</li>
-      <li>Designed to support planning and communication</li>
-      <li>Demonstrates problem-solving through a practical web tool</li>
-    </ul>
-    <a
-      class="project-link"
-      href="https://github.com/tamarakuiper/custodycalendar"
-      target="_blank"
-      rel="noopener"
-    >
-    Open Repository →
-  </a>
-  </article>
+      <div class="showcase">
+        <article class="project-card">
+          <div class="project-visual"></div>
+          <h3>Custody Calendar</h3>
+          <p>
+            A practical scheduling project designed to organize custody dates, improve planning,
+            and make shared calendar information easier to manage.
+          </p>
+          <ul class="project-details">
+            <li>Focused on usability, clarity, and real-world organization</li>
+            <li>Designed to support planning and communication</li>
+            <li>Demonstrates problem-solving through a practical web tool</li>
+          </ul>
+          <a
+            class="project-link"
+            href="https://github.com/tamarakuiper/custodycalendar"
+            target="_blank"
+            rel="noopener"
+          >
+            Open repository →
+          </a>
+        </article>
 
-  <article class="project-card">
-    <div class="project-visual report-visual"></div>
-    <h3>Computer Forensics</h3>
-    <p>
-      A cybersecurity-focused report demonstrating technical research, documentation,
-      investigation, and professional analysis skills.
-    </p>
-    <ul class="project-details">
-      <li>Penetration testing report</li>
-      <li>Shows technical writing and security awareness</li>
-      <li>Highlights investigation, analysis, and reporting skills</li>
-    </ul>
-    <a 
-      class="project-link" 
-      href="https://docs.google.com/document/d/1TxupPmeXXGwWCaiszrCeotPgFul-t578rVm5UUye6g4/edit?usp=sharing" 
-      target="_blank" 
-      rel="noopener"
-    >
-      View report →
-    </a>
-  </article>
+        <article class="project-card">
+          <div class="project-visual report-visual"></div>
+          <h3>Computer Forensics</h3>
+          <p>
+            A cybersecurity-focused report demonstrating technical research, documentation,
+            investigation, and professional analysis skills.
+          </p>
+          <ul class="project-details">
+            <li>Penetration testing report</li>
+            <li>Shows technical writing and security awareness</li>
+            <li>Highlights investigation, analysis, and reporting skills</li>
+          </ul>
+          <a
+            class="project-link"
+            href="https://docs.google.com/document/d/1TxupPmeXXGwWCaiszrCeotPgFul-t578rVm5UUye6g4/edit?usp=sharing"
+            target="_blank"
+            rel="noopener"
+          >
+            View report →
+          </a>
+        </article>
 
-  <article class="project-card">
-    <div class="project-visual"></div>
-    <h3>Design Prototyping</h3>
-    <p>
-      Created interactive layout concepts and visual mockups to explore user flow,
-      page structure, and overall design direction before development.
-    </p>
-    <ul class="project-details">
-      <li>Built wireframes and visual mockups</li>
-      <li>Focused on clean navigation and user experience</li>
-      <li>Translated ideas into polished interface concepts</li>
-    </ul>
-    <a 
-      class="project-link" 
-      href="https://docs.google.com/presentation/d/1HcZfs2XUSs55lH7Jnga01H-4cNMORzxTxvUX1C-qpZc/edit?usp=sharing" 
-      target="_blank" 
-      rel="noopener"
-    >
-      View presentation →
-    </a>
-  </article>
-</div>
+        <article class="project-card">
+          <div class="project-visual"></div>
+          <h3>Design Prototyping</h3>
+          <p>
+            Created interactive layout concepts and visual mockups to explore user flow,
+            page structure, and overall design direction before development.
+          </p>
+          <ul class="project-details">
+            <li>Built wireframes and visual mockups</li>
+            <li>Focused on clean navigation and user experience</li>
+            <li>Translated ideas into polished interface concepts</li>
+          </ul>
+          <a
+            class="project-link"
+            href="https://docs.google.com/presentation/d/1HcZfs2XUSs55lH7Jnga01H-4cNMORzxTxvUX1C-qpZc/edit?usp=sharing"
+            target="_blank"
+            rel="noopener"
+          >
+            View presentation →
+          </a>
+        </article>
+      </div>
     </section>
 
-
-
-<!--     <section id="wins">
-      <div class="section-heading">
-        <h2>Highlights</h2>
-        <p>Swap these numbers for milestones that make your homepage instantly credible.</p>
+    <section id="about">
+      <div class="section-card about-card">
+        <img src="IMG_1820.jpg" alt="Tamara Kuiper with family" />
+        <div class="about-copy">
+          <div class="eyebrow"><span class="pulse"></span> About Tamara</div>
+          <h2>Building clean, practical digital experiences with purpose.</h2>
+          <p>
+            I’m Tamara Kuiper, a motivated creator and builder focused on turning ideas
+            into polished, user-friendly web projects. This site brings together my
+            work, accomplishments, professional links, and current projects in one
+            easy-to-explore place.
+          </p>
+          <p>
+            Whether you are reviewing my portfolio, exploring my technical growth, or
+            looking for someone who is resourceful, adaptable, and committed to learning,
+            this homepage is designed to give you a clear snapshot of what I can create
+            and where I am headed.
+          </p>
+          <div class="actions">
+            <a class="button primary" href="mailto:tkuiper2024@gmail.com">Start a conversation</a>
+            <a class="button secondary" href="#projects">View my projects →</a>
+          </div>
+        </div>
       </div>
-
-      <div class="stats">
-        <div class="stat-card">
-          <strong>10+</strong>
-          <span>Projects completed</span>
-        </div>
-        <div class="stat-card">
-          <strong>5</strong>
-          <span>Featured collaborations</span>
-        </div>
-        <div class="stat-card">
-          <strong>3</strong>
-          <span>Major accomplishments</span>
-        </div>
-        <div class="stat-card">
-          <strong>1</strong>
-          <span>Central link hub</span>
-        </div>
-      </div> -->
-    <!-- </section> -->
-
-<section id="about">
-  <div class="section-card about-card">
-    <img src="IMG_1820.jpg" alt="Kuiper family" />
-    <div class="about-copy">
-      <div class="eyebrow"><span class="pulse"></span> About Tamara</div>
-      <h2>Building clean, practical digital experiences with purpose.</h2>
-      <p>
-        I’m Tamara Kuiper, a motivated creator and builder focused on turning ideas
-        into polished, user-friendly web projects. This site brings together my
-        work, accomplishments, professional links, and current projects in one
-        easy-to-explore place.
-      </p>
-      <p>
-        Whether you are reviewing my portfolio, exploring my technical growth, or
-        looking for someone who is resourceful, adaptable, and committed to learning,
-        this homepage is designed to give you a clear snapshot of what I can create
-        and where I am headed.
-      </p>
-      <div class="actions">
-        <a class="button primary" href="mailto:tkuiper2024@gmail.com">Start a conversation</a>
-        <a class="button secondary" href="#projects">View my projects →</a>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
     <footer class="footer">
       <div>
         <strong>Tamara Kuiper</strong><br />
         <span>Personal links, projects, and accomplishments.</span>
       </div>
-      <a class="button secondary" href="https://tamarakuiper.com">tamarakuiper.com</a>
+      <a class="button secondary" href="https://tamarakuiper.com" target="_blank" rel="noopener">tamarakuiper.com</a>
     </footer>
   </div>
 
