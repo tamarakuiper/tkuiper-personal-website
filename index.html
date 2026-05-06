@@ -574,6 +574,19 @@
       .button {
         width: 100%;
       }
+
+      .project-visual {
+        width: 100%;
+        overflow: hidden;
+        border-radius: 12px;
+      }
+
+      .project-banner {
+        width: 100%;
+        height: 70px;
+        display: block;
+        object-fit: cover;
+      }
     }
   </style>
 </head>
@@ -685,13 +698,14 @@
       </div>
 
               <article class="project-card">
-          <div class="project-visual report-visual">
-            <img
+          <div class="project-visual">
+                        <img
               src="CoParentExpenseBanner.png"
               alt="CoParentExpense App Banner"
               class="project-banner"
             />
           </div>
+
           <h3>CoParent Expense Tracking App</h3>
           <p>
             Track, organize, and resolve shared child-related expenses in one place. 
